@@ -1,0 +1,55 @@
+.key-responsbility{
+    background: rgba(0, 52, 89, 0.06);
+}
+
+
+    .key-div{
+        width: 98%;
+        height: 282px;
+        background: #FFFFFF;
+        border-radius: 2rem 2rem 0 2rem;
+    }
+
+    .keyimagesize{
+width: 90px;
+height: 90px;
+    }
+    .key-div h3{
+        color: #0D6EFD;
+        font-size: 1rem;
+/* font-size: 20px; */
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    .key-div p{
+    color: #707070;
+font-family: Poppins;
+font-size: .8rem;
+/* font-size: 15px; */
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+@media only screen and (max-width: 1400px){
+    .key-div{
+        height: 300px;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px){
+    .key-div{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .key-div{
+        height: auto;
+    }
+}

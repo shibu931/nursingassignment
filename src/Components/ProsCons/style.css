@@ -1,0 +1,79 @@
+.prooscons-sect{
+    background-image: linear-gradient(268deg, #FDF3F4 0%, #FFF6DA 100%);
+    padding: 2rem;
+}
+.pros ul {
+    float: left;
+    /* width: 50%; */
+    margin: 0;
+    padding: 0;
+}
+
+.pros li {
+    list-style: none;
+    color: #003459;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 3px 0px 3px 25px !important;
+}
+.pros li::before {
+content: "\f058";
+color: #26cd26;
+font-size: 1rem;
+font-family: FontAwesome;
+    margin-right: 5px;
+}
+
+
+.pros-cons-img{
+width: 100%;
+height: 300px;
+}
+
+.cons ul {
+    float: left;
+    /* width: 50%; */
+    margin: 0;
+    padding: 0;
+}
+
+.cons li {
+    list-style: none;
+    color: #003459;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 3px 0px 3px 25px !important;
+}
+.cons li::before {
+content: "\f058";
+color: red;
+font-size: 1rem;
+font-family: FontAwesome;
+    margin-right: 5px;
+}
+
+.subheading{
+    color: #0D6EFD;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0;
+  }
+
+.pros-const-head{
+    color: #003459;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}

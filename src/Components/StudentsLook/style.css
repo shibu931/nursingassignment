@@ -1,0 +1,16 @@
+.students-look-back{
+    background: #f2fcf9;
+    /* padding: 1rem 0; */
+}
+
+.studentlookimg{
+width: 400px;
+height:400px;
+background: #ffffff;
+float: right;
+}
+
+.slook-img{
+    width: 100%;
+    height: 100%;
+}

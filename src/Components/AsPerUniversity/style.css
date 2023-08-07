@@ -1,0 +1,66 @@
+.canada-back{
+    width:98%;
+    height:auto;
+    position:relative;
+    display:block;
+     padding:1rem;
+     /* background-image: url('../../assets/img/canadaback.webp'); */
+     /* background-image: url('../logo192.png'); */
+  }
+  
+  /* .canada-back::before{
+    content:"";
+          background-image: url('https://hdwallpaperim.com/wp-content/uploads/2017/08/31/148167-water-bridge-dock-748x468.jpg');
+   opacity:0.5;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    width:auto;
+    height:auto;
+    z-index:-3;
+  }
+   */
+  .countryimg{
+    width: auto;
+    height: 90px;
+  }
+  .canada-back h2{
+    color: #003459;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .firstpara p{
+    color: #003459;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .countrysubhead{
+    color: #003459;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .countrypara{
+    color: #003459;
+font-family: Poppins;
+font-size: .8rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  }
+
+  .foo { border-color: red; }
+

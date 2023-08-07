@@ -1,0 +1,23 @@
+.assignment-esp-sec{
+background: #FFFFFF;
+padding: 1rem 0;
+}
+
+.table-back{
+background: #fdf3f4;
+
+}
+
+.table-back table tr td {
+    border: 4px solid #fdf3f4;
+}
+tbody, td, tfoot, th, thead, tr {
+    border: 4px solid #fdf3f4;
+}
+.table-bordered>:not(caption)>*>* {
+    border-width: 0 1px;
+    border: 4px solid #fdf3f4;
+}
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: #fdf3f4;
+}
