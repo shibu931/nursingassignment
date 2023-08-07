@@ -1,6 +1,7 @@
 .simplestep-back{
     background: #3485fd;
     padding: 2rem 0;
+    
    
 }
 
@@ -8,7 +9,7 @@
 height: 250px;
     background: #FFFFFF;
     border-radius: 1rem 1rem 0 1rem;
-    position: relative;
+    
 }
 .stepimagesize{
     height: 90px;
@@ -30,18 +31,10 @@ font-weight: 400;
 color: #6C757D;
 }
 
-.last :after {
-    content: "";
-    width: 60px;
-    height: 200px;
-    /* background-image:
-  url(
-"https://media.geeksforgeeks.org/wp-content/uploads/rk.png"); */
-/* background-image:
-url("../../assets/img/dottedimg.webp"); */
-  background-size: "cover";
-    top: 10px;
-    right: -22%;
-    position: absolute;
-    display: inline-block;
+
+
+@media only screen and (max-width: 800px){
+  .last :after {
+      display: none;
+  }
 }

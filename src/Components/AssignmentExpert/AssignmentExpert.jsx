@@ -21,7 +21,7 @@ function AssignmentExpert() {
     <section className='table-back'>
         <div className='container py-4'>
           <div className='table-responsive'>
-        <table class="table table-bordered bg-white">
+        <table className="table table-bordered bg-white">
   <thead>
     <tr>
       <th scope="col">#</th>

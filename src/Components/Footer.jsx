@@ -11,11 +11,11 @@ export default function Footer() {
                     <h2 className='fs-4 fw-600'>LOGO</h2>
                     <p className='fs-5 mb-5'>Company's Motto</p>
                     <ul className='list-unstyled d-flex'>
-                      <li><span className='text-secondary fs-4 m-2'><i class="fa-brands fa-facebook"></i></span></li>
-                      <li><span className='text-secondary fs-4 m-2'><i class="fa-brands fa-square-instagram"></i></span></li>
-                      <li><span className='text-secondary fs-4 m-2'><i class="fa-brands fa-square-twitter"></i></span></li>
-                      <li><span className='text-secondary fs-4 m-2'><i class="fa-brands fa-pinterest"></i></span></li>
-                      <li><span className='text-secondary fs-4 m-2'><i class="fa-brands fa-linkedin"></i></span></li>
+                      <li><span className='text-secondary fs-4 m-2'><i className="fa-brands fa-facebook"></i></span></li>
+                      <li><span className='text-secondary fs-4 m-2'><i className="fa-brands fa-square-instagram"></i></span></li>
+                      <li><span className='text-secondary fs-4 m-2'><i className="fa-brands fa-square-twitter"></i></span></li>
+                      <li><span className='text-secondary fs-4 m-2'><i className="fa-brands fa-pinterest"></i></span></li>
+                      <li><span className='text-secondary fs-4 m-2'><i className="fa-brands fa-linkedin"></i></span></li>
                     </ul>
                   </div>
                   <div className="col-lg-3 col-md-6 p-2">

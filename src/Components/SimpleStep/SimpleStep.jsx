@@ -7,7 +7,7 @@ function SimpleStep() {
     <section className='simplestep-back'>
         <div className='container'>
 <div className='text-center text-white py-3'>
-    <h2 className='fw-bold'>How To Connect Us With Simple Steps </h2>
+    <h2 className='fw-bold text-light'>How To Connect Us With Simple Steps </h2>
 </div>
 
 
@@ -54,7 +54,7 @@ function SimpleStep() {
 </div>
 
 <div className='col-lg-3 col-md-6 col-sm-6 col-12'>
-    <div className='simple-step-div last p-5 mt-3'>
+    <div className='simple-step-div position-relative p-5 mt-3'>
 <img
                   className="stepimagesize"
                   alt="abc"
@@ -65,8 +65,10 @@ function SimpleStep() {
        
    
 </div>
-</div>
 
+
+</div>
+<span className='last'></span>
 
 
 </div>

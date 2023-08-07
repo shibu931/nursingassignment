@@ -4,7 +4,7 @@ const Key = () => {
   return (
     <>
     <section className='key-responsbility p-5'>
-        <div className='container'>
+        <div className='container pb-5 mb-3'>
 <div className='heading text-center'>
 <h2>What Are The <span>Key Responsibilities </span> Of Best <br/> Of Best 
 Nursing Assignment Experts? </h2>
@@ -113,7 +113,6 @@ important profession offered by Nursing assignment expert Australia:</p>
 
 
 </div>
-
         </div>
     </section>
 

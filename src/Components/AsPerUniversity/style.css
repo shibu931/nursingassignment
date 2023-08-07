@@ -8,6 +8,19 @@
      /* background-image: url('../logo192.png'); */
   }
   
+  .canada-back{
+    background-image: url("http://localhost:3000/assets/img/canadaback.webp");
+    background-size: cover;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+  .au-back{
+    background-image: url("http://localhost:3000/assets/img/australiaback.webp");
+    background-size: cover;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+  }
   /* .canada-back::before{
     content:"";
           background-image: url('https://hdwallpaperim.com/wp-content/uploads/2017/08/31/148167-water-bridge-dock-748x468.jpg');
@@ -62,5 +75,4 @@ font-weight: 400;
 line-height: normal;
   }
 
-  .foo { border-color: red; }
-
+  .hrtag { border-color: blue; }

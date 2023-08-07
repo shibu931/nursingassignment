@@ -13,11 +13,13 @@ import ProsCons from './ProsCons/ProsCons'
 import AssignmentExpert from './AssignmentExpert/AssignmentExpert'
 import Key from './Key/Key'
 import StudentsLook from './StudentsLook/StudentsLook'
+import Overview from './Overview/Overview'
 
 export default function Home() {
   return (
     <>
         <Banner/>
+        <Overview/>
         <Key/>
         <AssignmentExpert/>
         <StudentsLook/>
