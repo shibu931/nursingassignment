@@ -16,7 +16,9 @@ h2{
 .text-dark-blue{
     color: rgba(0, 52, 89, 1)!important;
 }
-
+body{
+    overflow-x: hidden;
+}
 .navbar{
     background: var(--primary-gradient);
 }
