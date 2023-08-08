@@ -5,7 +5,7 @@ function AssignmentExpert() {
 
 
    <>
-     <section className='assignment-esp-sec'>
+     <section className='assignment-esp-sec '>
         <div className='container'>
         <div className='heading text-center'>
 <h2>Write My Nursing Assignment? We Have The Best <br/>Nursing <span>Assignment Experts</span> In The Industry</h2>
@@ -18,60 +18,61 @@ function AssignmentExpert() {
         </div>
     </section>
 
-    <section className='table-back'>
-        <div className='container py-4'>
+    <section className='table-back pb-5'>
+        <div className='container py-4 position-relative' style={{"z-index":"2"}}>
           <div className='table-responsive'>
         <table className="table table-bordered bg-white">
   <thead>
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">Gold</th>
-      <th scope="col">Platinum</th>
-      <th scope="col">Diamond</th>
+      <th scope="col" className='text-center p-2  p-md-4 fs-5 text-dark-blue'>#</th>
+      <th scope="col" className='text-center p-2  p-md-4 fs-5 text-dark-blue'>Gold</th>
+      <th scope="col" className='text-center p-2  p-md-4 fs-5 text-dark-blue'>Platinum</th>
+      <th scope="col" className='text-center p-2  p-md-4 fs-5 text-dark-blue'>Diamond</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">Minimum Qualification</th>
-      <td>Doctorate-level</td>
-      <td>Doctorate-level experts with <br/>multiple publications in <br/>authentic journals</td>
-      <td>Post-Doctorate experts <br/>and Licensed practical<br/> nurses</td>
+      <th scope="row" className='p-2  p-md-4 text-dark-blue fs-5'>Minimum Qualification</th>
+      <td className='p-2 p-md-4 fs-6 fw-light'>Doctorate-level</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>Doctorate-level experts with <br/>multiple publications in <br/>authentic journals</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>Post-Doctorate experts <br/>and Licensed practical<br/> nurses</td>
     </tr>
     <tr>
-      <th scope="row">Academic Experience</th>
-      <td>2 to 3 years</td>
-      <td>3 to 5 years</td>
-      <td>5 years</td>
+      <th scope="row" className='p-2  p-md-4 text-dark-blue fs-5'>Academic Experience</th>
+      <td className='p-2 p-md-4 fs-6 fw-light'>2 to 3 years</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>3 to 5 years</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>5 years</td>
     </tr>
     <tr>
-      <th scope="row">Quality-Check Levels <br/>Offered By Experts</th>
+      <th scope="row" className='p-2  p-md-4 text-dark-blue fs-5'>Quality-Check Levels <br/>Offered By Experts</th>
       {/* <td colspan="2">Larry the Bird</td> */}
-      <td>3 step</td>
-      <td>5 step</td>
-      <td>7 step</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>3 step</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>5 step</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>7 step</td>
     </tr>
     <tr>
-      <th scope="row">Revisions Offered By <br/>Experts</th>
-      <td>One</td>
-      <td>Two</td>
-      <td>Three</td>
+      <th scope="row" className='p-2  p-md-4 text-dark-blue fs-5'>Revisions Offered By <br/>Experts</th>
+      <td className='p-2 p-md-4 fs-6 fw-light'>One</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>Two</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>Three</td>
     </tr>
     <tr>
-      <th scope="row">Number of Assignments  <br/>Delivered</th>
-      <td>2500+</td>
-      <td>4800+</td>
-      <td>7000+</td>
+      <th scope="row" className='p-2  p-md-4 text-dark-blue fs-5'>Number of Assignments  <br/>Delivered</th>
+      <td className='p-2 p-md-4 fs-6 fw-light'>2500+</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>4800+</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>7000+</td>
     </tr>
     <tr>
-      <th scope="row">Overall Rating</th>
-      <td>4.7/5</td>
-      <td>4.9/5</td>
-      <td>5/5</td>
+      <th scope="row" className='p-2  p-md-4 text-dark-blue fs-5'>Overall Rating</th>
+      <td className='p-2 p-md-4 fs-6 fw-light'>4.7/5</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>4.9/5</td>
+      <td className='p-2 p-md-4 fs-6 fw-light'>5/5</td>
     </tr>
   </tbody>
 </table>
 </div>
         </div>
+        <span className="table-dots"></span>
     </section>
    </>
 

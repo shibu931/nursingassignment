@@ -3,7 +3,7 @@ import './style.css';
 const Key = () => {
   return (
     <>
-    <section className='key-responsbility p-5'>
+    <section className='key-responsbility p-5' id='writing'>
         <div className='container pb-5 mb-3'>
 <div className='heading text-center'>
 <h2>What Are The <span>Key Responsibilities </span> Of Best <br/> Of Best 

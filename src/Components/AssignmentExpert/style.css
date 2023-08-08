@@ -7,7 +7,12 @@ padding: 1rem 0;
 background: #fdf3f4;
 
 }
-
+th{
+    vertical-align: middle;
+}
+td{
+    vertical-align: middle;
+}
 .table-back table tr td {
     border: 4px solid #fdf3f4;
 }

@@ -11,22 +11,22 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link fw-600" aria-current="page" href="#">Services</a>
+                            <a className="nav-link fw-600" aria-current="page" href="#services">Services</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fw-600" href="#">Writing Help</a>
+                            <a className="nav-link fw-600" href="#writing">Writing Help</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fw-600 " href=''>Support</a>
+                            <a className="nav-link fw-600 " href='#reviews'>Review</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link fw-600 " href=''>Blog</a>
+                            <a className="nav-link fw-600 " href='#blog'>Blog</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link fw-600 " href='#contact'>Contact</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link fw-600 " href=''>Order</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link fw-600 " href=''>Review</a>
                         </li>
                     </ul>
                 </div>

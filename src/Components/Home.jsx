@@ -14,6 +14,7 @@ import AssignmentExpert from './AssignmentExpert/AssignmentExpert'
 import Key from './Key/Key'
 import StudentsLook from './StudentsLook/StudentsLook'
 import Overview from './Overview/Overview'
+import Blog from './Blog'
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <Carousel/>
         <BetterService/>
         <WhyStudent/>
+        <Blog/>
         <AsPerUniversity/>
         <ProsCons/>
         <HireingNursing/>
