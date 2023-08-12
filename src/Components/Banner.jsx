@@ -16,7 +16,7 @@ export default function Banner() {
                                 <div className="counter-box d-flex flex-wrap align-items-center justify-content-around py-3 me-lg-5">
                                     <div className='p-1'>
                                         <h2 className='mb-0 text-center'>100%</h2>
-                                        <p className='mb-0 text-center'>money back<br className='d-block d-sm-none'/> guarantee</p>
+                                        <p className='mb-0 text-center'>money back guarantee</p>
                                     </div>
                                     <div className=' p-1'>
                                         <h2 className='mb-0 text-center'>100%</h2>
