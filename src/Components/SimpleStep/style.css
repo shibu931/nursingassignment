@@ -1,12 +1,12 @@
 .simplestep-back{
     background: #3485fd;
-    padding: 2rem 0;
+    padding-bottom: 2rem;
     
    
 }
 
 .simple-step-div{
-height: 250px;
+height: 300px;
     background: #FFFFFF;
     border-radius: 1rem 1rem 0 1rem;
     
@@ -18,15 +18,13 @@ height: 250px;
 }
 .simple-step-div h4{
 color: #003459;
-font-family: Poppins;
-font-size: 1rem;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
 
 .simple-step-div p{
-font-size: .8rem;
+font-size: 1.1rem;
 font-weight: 400;
 color: #6C757D;
 }

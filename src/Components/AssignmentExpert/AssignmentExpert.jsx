@@ -8,12 +8,12 @@ function AssignmentExpert() {
      <section className='assignment-esp-sec '>
         <div className='container'>
         <div className='heading text-center'>
-<h2>Write My Nursing Assignment? We Have The Best <br/>Nursing <span>Assignment Experts</span> In The Industry</h2>
+<h2 className='fw-bold mb-4'>Write My Nursing Assignment? We Have The Best <br/>Nursing <span className='text-primary'>Assignment Experts</span> In The Industry</h2>
 
 </div>
 
 <div>
-<p>Struggling with the intricacies of nursing education? Don't worry - by leveraging the expertise of a nursing assignment writer, you can find your way back onto the road to success. Although the quest for excellence may be extended and winding, the right help will illuminate the path, allowing you to overcome any challenges road to success. Although the quest for excellence may be extended and winding, the right help will illuminate the path, allowing you to overcome any challenges that come your way. Our Nursing Assignment Experts are like a brilliant cluster of stars, each one illuminating the sky with its own unique qualities. They are three exceptional stars in the boundless expanse of nursing education, fashioned to suit the particular needs of students with different financial means. We offer an economical choice for all learners so they can gain access to the expert support required to succeed in their nursing studies. Let us take a closer look at these three categories of nursing assessment experts we have, with each a jewel on its own.</p>
+<p className='fs-6 text-secondary fs-thin'>Struggling with the intricacies of nursing education? Don't worry - by leveraging the expertise of a nursing assignment writer, you can find your way back onto the road to success. Although the quest for excellence may be extended and winding, the right help will illuminate the path, allowing you to overcome any challenges road to success. Although the quest for excellence may be extended and winding, the right help will illuminate the path, allowing you to overcome any challenges that come your way. Our Nursing Assignment Experts are like a brilliant cluster of stars, each one illuminating the sky with its own unique qualities. They are three exceptional stars in the boundless expanse of nursing education, fashioned to suit the particular needs of students with different financial means. We offer an economical choice for all learners so they can gain access to the expert support required to succeed in their nursing studies. Let us take a closer look at these three categories of nursing assessment experts we have, with each a jewel on its own.</p>
 </div>
         </div>
     </section>

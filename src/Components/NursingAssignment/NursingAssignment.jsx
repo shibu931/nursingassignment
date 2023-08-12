@@ -23,8 +23,8 @@ function NursingAssignment() {
   <div className='heading'>
 <h2 className='fw-bold'>What Is A <span className='text-primary'>Nursing Assignment </span> <br/> Expert? </h2>
 </div>
-        <div>
-<p className='fs-5 fw-light'>A nursing assignment expert can be referred to as a professional who can provide students with the best assignment help services in nursing. The experts that are working on your assignments are highly experienced and hold no less than a Ph.D. degree.</p>
+        <div className='pe-0 pe-md-5'>
+<p className='fs-5 fw-light pe-0 pe-md-5'>A nursing assignment expert can be referred to as a professional who can provide students with the best assignment help services in nursing. The experts that are working on your assignments are highly experienced and hold no less than a Ph.D. degree.</p>
         </div>
   </div>
     </div>

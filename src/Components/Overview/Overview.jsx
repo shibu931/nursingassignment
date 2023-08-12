@@ -13,9 +13,9 @@ function Overview() {
                 <div className='col-lg-8 col-md-6 col-sm-12 col-12'>
                 <div className='heading'>
             <p className='subheading py-2 fs-5 fw-bold'>Nursing Assignment Expert:</p>
-            <h2>A Comprehensive Overview of Services</h2></div>
+            <h2 className='fw-bold'>A Comprehensive Overview of Services</h2></div>
                     <div className='overview-div'>
-                        <p className='fs-5 fw-light'>Despite potential variances in writing standards amongst variegated disciplines, 
+                        <p className='fs-5 fw-light pe-0 pe-md-5'>Despite potential variances in writing standards amongst variegated disciplines, 
 all academicians must adhere to fundamental writing standards, including 
 framing sentences that are brief, precise, and grammatically accurate; utilizing 
 appropriate punctuation; displaying rational reflection; and, in all, utilizing 
@@ -34,7 +34,7 @@ generation of nursing professionals. Their unwavering commitment to their
 students and their responsibilities inspires all who seek to follow in their footsteps.
 Their unwavering commitment to their 
 students and their responsibilities inspires all who seek to follow in their footsteps.
-<span>Learn more....</span></p>
+</p>
                     </div>
                 </div>
                 <div className='col-lg-4 col-md-6 col-sm-12 col-12'>

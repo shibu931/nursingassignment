@@ -1,11 +1,8 @@
-.overview-div p{
-text-align: justify;
-}
+
 
 .overviewimg {
     width: 100%;
     margin-top:1rem;
     height: 90%;
-    border-radius: 80px;
     box-shadow: 1px 1px 5px 2px #2222;
 }

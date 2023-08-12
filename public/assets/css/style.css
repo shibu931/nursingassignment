@@ -10,6 +10,9 @@
 .fw-400{
     font-weight: 400!important;
 }
+.fw-500{
+    font-weight: 500;
+}
 h2{
     color: #003459!important;
 }
@@ -37,6 +40,25 @@ body{
     color: rgb(78, 199, 158);
     border-radius: 20px;
 }
+.counter-box h2{
+    color: rgb(78, 199, 158)!important;
+}
+.hero-form{
+    height: 460px;
+    width: 100%;
+}
+.title-text{
+    text-wrap:nowrap;
+}
+@media screen and (max-width:481px) {
+    .hero-form{
+        height: 360px;
+        width: 100%;
+    }
+    .title-text{
+        text-wrap:wrap;
+    }
+}
 .dots{
     position: relative;
 }
@@ -45,7 +67,8 @@ body{
     position: absolute;
     width: 150px;
     height: 250px;
-    bottom: -100px;
+    right: 0;
+    top: 100px;
     background-image: url("../img/dots.png");
     z-index: 1;
     opacity: 0.5;
@@ -221,23 +244,13 @@ body{
       background-image:url("../img/dottedimg.webp");
       background-size: contain;
       background-repeat: no-repeat;
-      bottom: 0;
+      bottom: -40px;
+      z-index: 1;
       right: -5%;
       position: absolute;
       display: inline-block;
 }
-  .last::after {
-      content: "";
-      width: 302px;
-      height: 306px;
-      background-image:url("../img/dottedimg.webp");
-      background-size: contain;
-      background-repeat: no-repeat;
-      bottom: 0;
-      right: -5%;
-      position: absolute;
-      display: inline-block;
-}@media screen and (max-width:480px){
+@media screen and (max-width:480px){
     .last::after {
         right: 0%;
   }
