@@ -3,7 +3,7 @@ import './style.css';
 const Key = () => {
   return (
     <>
-    <section className='key-responsbility p-5' id='writing'>
+    <section className='key-responsbility p-2 px-lg-5' id='writing'>
         <div className='container pb-5 mb-3'>
 <div className='heading text-center'>
 <h2 className='fw-bold fs-1 lh-base mb-4'>What Are The <span className='text-primary'>Key Responsibilities </span> Of Best <br/>
@@ -21,7 +21,7 @@ important profession offered by Nursing assignment expert Australia:</p>
 
 <div className='row'>
     <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
-<div className='key-div px-5 pt-4 mt-3'>
+<div className='key-div px-3 px-lg-5 pb-2 pt-4 mt-3'>
 <img
                   className="keyimagesize"
                   alt="abc"
@@ -36,7 +36,7 @@ important profession offered by Nursing assignment expert Australia:</p>
     </div>
 
     <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
-    <div className='key-div px-5 pt-4 mt-3'>
+    <div className='key-div px-3 px-lg-5 pb-2 pt-4 mt-3'>
 <img
                   className="keyimagesize"
                   alt="abc"
@@ -55,7 +55,7 @@ important profession offered by Nursing assignment expert Australia:</p>
 {/* <br/> */}
 <div className='row'>
     <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
-<div className='key-div px-5 pt-4 mt-3'>
+<div className='key-div px-3 px-lg-5 pb-2 pt-4 mt-3'>
 <img
                   className="keyimagesize"
                   alt="abc"
@@ -69,7 +69,7 @@ important profession offered by Nursing assignment expert Australia:</p>
     </div>
 
     <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
-    <div className='key-div px-5 pt-4 mt-3'>
+    <div className='key-div px-3 px-lg-5 pb-2 pt-4 mt-3'>
 <img
                   className="keyimagesize"
                   alt="abc"
@@ -86,7 +86,7 @@ important profession offered by Nursing assignment expert Australia:</p>
 
 <div className='row'>
     <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
-<div className='key-div px-5 pt-4 mt-3'>
+<div className='key-div px-3 px-lg-5 pb-2 pt-4 mt-3'>
 <img
                   className="keyimagesize"
                   alt="abc"
@@ -100,7 +100,7 @@ important profession offered by Nursing assignment expert Australia:</p>
     </div>
 
     <div className='col-lg-6 col-md-6 col-sm-12 col-12'>
-    <div className='key-div px-5 pt-4 mt-3'>
+    <div className='key-div px-3 px-lg-5 pb-2 pt-4 mt-3'>
 <img
                   className="keyimagesize"
                   alt="abc"

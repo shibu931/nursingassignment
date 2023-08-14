@@ -54,8 +54,8 @@ export default function Blog() {
     return (
         <>
             <div className="container mt-5" id='blog'>
-                <div className="title pb-4">
-                    <h2 className='fw-bold'>We'll Cover A Few Of The <span className='text-primary'>Challenges Nursing</span> Students Encounter While Completing Nursing Assignments Canada And Australia</h2>
+                <div className="title pb-4 pt-0 pt-md-4 ">
+                    <h2 className='fw-bold pe-2 pe-lg-5 mb-4'>We'll Cover A Few Of The <span className='text-primary'>Challenges Nursing</span> Students Encounter While Completing Nursing Assignments Canada And Australia</h2>
                 </div>
                 <OwlCarousel className='owl-theme' {...options}>
                     {

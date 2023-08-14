@@ -110,9 +110,9 @@ export default function Services() {
     ] 
   return (
     <>
-        <div className="container mt-5" id='services'>
-            <h2 className='text-center fs-3 fs-lg-2 fw-bold'>Types of <span className='text-primary'>Assignment Written</span><br/> By Nursing Assignment Experts</h2>
-            <div className="d-flex justify-content-center mb-5">
+        <div className="container my-5 py-2 py-lg-4 " id='services'>
+            <h2 className='text-center fs-2 fs-lg-2 pb-2 fw-bold'>Types of <span className='text-primary'>Assignment Written</span><br/> By Nursing Assignment Experts</h2>
+            <div className="d-flex justify-content-center pb-5">
                 <img src="./assets/img/usp.webp" width={'310px'} className='mt-4' alt="" />
             </div>
             <div className="d-flex flex-wrap justify-content-around">
