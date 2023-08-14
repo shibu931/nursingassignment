@@ -19,7 +19,7 @@ function SimpleStep() {
                   alt="abc"
                   src="../assets/img/place-order.webp"
                 />
-    <h4>Place Your Order</h4>
+    <h4 className='fs-5'>Place Your Order</h4>
    <p>Fill in your details at Write <br/>my assignment form</p>
   
 </div>
@@ -31,7 +31,7 @@ function SimpleStep() {
                   className="stepimagesize"
                   alt="abc"
                   src="../assets/img/talk-to-us.webp"/>
-    <h4>Talk To Us</h4>
+    <h4 className='fs-5'>Talk To Us</h4>
     
    <p>The writing work is <br/>allocated to the most </p>
        
@@ -46,7 +46,7 @@ function SimpleStep() {
                   alt="abc"
                   src="../assets/img/make-payment.webp"
                 />
-   <h4>Make Payment</h4>
+   <h4 className='fs-5'>Make Payment</h4>
     <p>You need to make <br/>payment through the <br/>secured payment system.</p>
        
    
@@ -60,7 +60,7 @@ function SimpleStep() {
                   alt="abc"
                   src="../assets/img/dilivery-quality.webp"
                 />
-   <h4>Delivered Quality <br/>Work On-Time</h4>
+   <h4 className='fs-5'>Delivered Quality Work On-Time</h4>
     <p>On time and quality work <br/>is delivered to you.</p>
        
    

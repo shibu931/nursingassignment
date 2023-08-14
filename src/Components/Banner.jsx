@@ -32,7 +32,7 @@ export default function Banner() {
                                     </div>
                                 </div>
                                 </div>
-                                <div style={{transform:"translateX(-20px)"}}>
+                                <div style={{transform:"translateX(-40px)"}}>
                                 <span className='dots d-none d-lg-block'></span>
                                 <img src="./assets/img/nurse.webp" className='position-relative d-none d-lg-block' style={{zIndex:"2"}} width="370px" alt="" />
                                 </div>

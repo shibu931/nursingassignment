@@ -19,31 +19,72 @@ function ProsCons() {
               <div>
                 <h4 className='pros-const-head'>Pros</h4>
                 <div className='pros'>
-                  <ul className="lft_facts_list">
-                     <li className='fs-5'> Always Document The Information</li>
-                     <li className='fs-5'> Stay Precise</li>
-                     <li className='fs-5'> Utilize Verified Protocol</li>
-                     <li className='fs-5'> Use Professional Phrases</li>
-                     <li className='fs-5'> Using cliche titles</li>
-                     <li className='fs-5'> Appropriate Citations and Referencing</li> 
-                  </ul>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/green_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Always Document The Information</p></td>
+                      </tr>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/green_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Stay Precise</p></td>
+                      </tr>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/green_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Utilize Verified Protocol</p></td>
+                      </tr>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/green_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Use Professional Phrases</p></td>
+                      </tr>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/green_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Using cliche titles</p></td>
+                      </tr>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/green_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Appropriate Citations and Referencing</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
             <div className='col-lg-4 col-md-6 com-sm-12 col-12'>
-              <div>  <img className="pros-cons-img" alt="abc" src="../assets/img/pros-cons-img.webp" /></div>
+              <div>  <img className="pros-cons-img d-none d-md-block" alt="abc" src="../assets/img/pros-cons-img.webp"  /></div>
             </div>
             <div className='col-lg-4 col-md-6 com-sm-12 col-12 d-flex align-items-center justify-content-center'>
               <div>
                 <h4 className='pros-const-head'>Cons</h4>
                 <div className='cons'>
-                  <ul className="lft_facts_list"> <li className='fs-5'> Overlooking Formatting</li>
-                  <li className='fs-5'> Using Generic Terms</li>
-                  <li className='fs-5'> Plagiarised Content</li>
-                  <li className='fs-5'> Vague Conclusion</li>
-                  <li className='fs-5'> Using cliche titles</li>
-                  <li className='fs-5'> Improper Reasoning</li> 
-                  </ul>
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/red_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Overlooking Formatting</p></td>
+                      </tr>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/red_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Using Generic Terms</p></td>
+                      </tr>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/red_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Plagiarised Content</p></td>
+                      </tr>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/red_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Vague Conclusion</p></td>
+                      </tr>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/red_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Using cliche titles</p></td>
+                      </tr>
+                      <tr>
+                        <td className='pe-4'><img src="./assets/img/red_tick.webp" width={35} alt="" /></td>
+                        <td><p className='fs-5 fw-bold mb-0'>Improper Reasoning</p></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>

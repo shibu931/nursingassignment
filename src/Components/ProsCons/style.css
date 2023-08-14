@@ -11,7 +11,6 @@
 .pros li {
     list-style: none;
     color: #003459;
-    font-family: Poppins;
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -19,7 +18,11 @@
     padding: 3px 0px 3px 25px !important;
 }
 
-
+td{
+    vertical-align: middle;
+    color: #003459;
+    padding: 5px 0;
+}
 .pros-cons-img{
 height: 600px;
 }
