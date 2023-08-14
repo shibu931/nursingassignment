@@ -9,7 +9,7 @@ export default function Banner() {
                         <div className="col-xl-8">
                             <div className="d-flex">
                                 <div className='d-flex flex-column justify-content-center'>
-                                <h1 className='fw-500 title-text mb-3 mt-4'>Worried About Nursing Assignment? <br className='d-none d-sm-block'/> Hire Nursing Assignment Expert</h1>
+                                <h1 className='fw-500 title-text mb-4 p-3 p-lg-0 mt-4 mb-lg-3'>Worried About Nursing Assignment? <br className='d-none d-sm-block'/> Hire Nursing Assignment Expert</h1>
                                 <h2 className="fs-5 fw-light mb-4 text-light">Connect with highly qualified and experienced
                                     Nursing Assignment experts, writers for all assignment on nursing at best prices with upto 50% off.
                                 </h2>

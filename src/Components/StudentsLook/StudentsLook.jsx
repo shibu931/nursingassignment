@@ -18,7 +18,7 @@ function StudentsLook() {
 
         </div>
     </div>
-    <div className='col-lg-4 pe-0'>
+    <div className='col-lg-4 pe-0 ps-0'>
         {/* <div className='studentlookimg'> */}
         <img
                   className="slook-img"

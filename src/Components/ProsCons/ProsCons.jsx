@@ -14,7 +14,7 @@ function ProsCons() {
       <section className='prooscons-sect'>
         <div className='container-fluid px-2 px-md-5 overflow-hidden'>
 
-          <div className='row'>
+          <div className='row py-5'>
             <div className='col-lg-4 col-md-6 com-sm-12 col-12 d-flex align-items-center justify-content-center ps-4 ps-lg-0'>
               <div>
                 <h4 className='pros-const-head'>Pros</h4>
