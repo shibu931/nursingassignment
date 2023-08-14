@@ -8,7 +8,7 @@ function NursingAssignment() {
         <div className='container-fluid'>
 <div className='row'>
    
-    <div className='col-lg-4 ps-0'>
+    <div className='col-lg-4 px-0 d-none d-lg-block'>
     <img className="slook-img"
                   alt="abc"
                   src="../assets/img/nursing-assignment.webp"
@@ -27,6 +27,15 @@ function NursingAssignment() {
 <p className='fs-5 fw-light pe-0 pe-md-5'>A nursing assignment expert can be referred to as a professional who can provide students with the best assignment help services in nursing. The experts that are working on your assignments are highly experienced and hold no less than a Ph.D. degree.</p>
         </div>
   </div>
+    </div>
+    <div className='col-lg-4 px-0 d-block d-lg-none'>
+    <img className="slook-img"
+                  alt="abc"
+                  src="../assets/img/nursing-assignment.webp"
+                />
+        {/* <div className='nursingassignmentimg'>
+            
+        </div> */}
     </div>
 
 </div>
