@@ -19,8 +19,8 @@ function ProsCons() {
               <div>
                 <h4 className='pros-const-head'>Pros</h4>
                 <div className='pros'>
-                  <table className='table-borderless'>
-                    <tbody>
+                  <table>
+                    <tbody style={{border:"unset"}}> 
                       <tr>
                         <td className='pe-4'><img src="./assets/img/green_tick.webp" width={35} alt="" /></td>
                         <td><p className='fs-5 fw-bold mb-0'>Always Document The Information</p></td>
@@ -57,8 +57,8 @@ function ProsCons() {
               <div>
                 <h4 className='pros-const-head'>Cons</h4>
                 <div className='cons'>
-                  <table className='table-borderless'>
-                    <tbody>
+                  <table >
+                    <tbody style={{border:"unset"}}>
                       <tr>
                         <td className='pe-4'><img src="./assets/img/red_tick.webp" width={35} alt="" /></td>
                         <td><p className='fs-5 fw-bold mb-0'>Overlooking Formatting</p></td>
