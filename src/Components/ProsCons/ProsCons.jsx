@@ -12,10 +12,10 @@ function ProsCons() {
         </div>
       </div>
       <section className='prooscons-sect'>
-        <div className='container-fluid px-2 px-md-5'>
+        <div className='container-fluid px-2 px-md-5 overflow-hidden'>
 
           <div className='row'>
-            <div className='col-lg-4 col-md-6 com-sm-12 col-12 d-flex align-items-center justify-content-center'>
+            <div className='col-lg-4 col-md-6 com-sm-12 col-12 d-flex align-items-center justify-content-center ps-4 ps-lg-0'>
               <div>
                 <h4 className='pros-const-head'>Pros</h4>
                 <div className='pros'>
@@ -53,7 +53,7 @@ function ProsCons() {
             <div className='col-lg-4 col-md-6 com-sm-12 col-12'>
               <div>  <img className="pros-cons-img d-none d-md-block" alt="abc" src="../assets/img/pros-cons-img.webp"  /></div>
             </div>
-            <div className='col-lg-4 col-md-6 com-sm-12 col-12 d-flex align-items-center justify-content-center'>
+            <div className='col-lg-4 col-md-6 com-sm-12 col-12 d-flex align-items-center justify-content-center ps-4 ps-lg-0'>
               <div>
                 <h4 className='pros-const-head'>Cons</h4>
                 <div className='cons'>

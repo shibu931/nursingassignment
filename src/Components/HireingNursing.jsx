@@ -3,7 +3,7 @@ import React from 'react'
 export default function HireingNursing() {
   return (
     <>
-        <div className="conatiner-fluid my-4 pt-4" style={{background: "#F2FCF9"}}>
+        <div className="conatiner-fluid overflow-hidden my-4 pt-4" style={{background: "#F2FCF9"}}>
             <h2 className='fs-1 fw-bold text-center pt-4 px-2'>Why You Need To <span className='text-primary'>Hire Nursing</span> Assignment Expert</h2>
             <div className="container px-0 px-lg-5 py-5">
                 <div className="row">

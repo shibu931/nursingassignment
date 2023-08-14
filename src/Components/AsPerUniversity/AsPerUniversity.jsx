@@ -11,7 +11,7 @@ function AsPerUniversity() {
 </div>
 <div>
     <div className='row'>
-        <div className='col'>
+        <div className='col mb-4'>
         <div className="canada-back cback">
         <img
                   className="countryimg"
@@ -41,7 +41,7 @@ function AsPerUniversity() {
 </div>
         </div>
 
-        <div className='col'>
+        <div className='col mb-4'>
         <div className="canada-back au-back">
         <img
                   className="countryimg"
