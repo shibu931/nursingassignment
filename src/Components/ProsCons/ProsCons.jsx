@@ -53,7 +53,7 @@ function ProsCons() {
             <div className='col-lg-4 col-md-6 com-sm-12 col-12'>
               <div>  <img className="pros-cons-img d-none d-md-block" alt="abc" src="../assets/img/pros-cons-img.webp"  /></div>
             </div>
-            <div className='col-lg-4 col-md-6 com-sm-12 col-12 d-flex align-items-center justify-content-center ps-4 ps-lg-0'>
+            <div className='col-lg-4 col-md-6 com-sm-12 col-12 d-flex align-items-center justify-content-start justify-content-lg-start ps-4 ps-lg-0'>
               <div>
                 <h4 className='pros-const-head'>Cons</h4>
                 <div className='cons'>
