@@ -18,7 +18,7 @@ export default function Banner() {
                                     <div className='p-1'>
                                         <h2 className='mb-0 text-center'>100%</h2>
                                         <p className='mb-0 text-center'>money back guarantee</p>
-                                    </div>
+                                    </div> 
                                     <div className=' p-1'>
                                         <h2 className='mb-0 text-center'>100%</h2>
                                         <p className='mb-0 text-center'><small>got better grades</small></p>

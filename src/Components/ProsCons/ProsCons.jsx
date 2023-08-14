@@ -19,7 +19,7 @@ function ProsCons() {
               <div>
                 <h4 className='pros-const-head'>Pros</h4>
                 <div className='pros'>
-                  <table>
+                  <table className='table-borderless'>
                     <tbody>
                       <tr>
                         <td className='pe-4'><img src="./assets/img/green_tick.webp" width={35} alt="" /></td>
@@ -57,7 +57,7 @@ function ProsCons() {
               <div>
                 <h4 className='pros-const-head'>Cons</h4>
                 <div className='cons'>
-                  <table>
+                  <table className='table-borderless'>
                     <tbody>
                       <tr>
                         <td className='pe-4'><img src="./assets/img/red_tick.webp" width={35} alt="" /></td>
