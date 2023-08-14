@@ -32,13 +32,13 @@ export default function Banner() {
                                     </div>
                                 </div>
                                 </div>
-                                <div>
+                                <div style={{transform:"translateX(-20px)"}}>
                                 <span className='dots d-none d-lg-block'></span>
                                 <img src="./assets/img/nurse.webp" className='position-relative d-none d-lg-block' style={{zIndex:"2"}} width="370px" alt="" />
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 px-0 px-lg-5">
+                        <div className="col-xl-4 px-0 px-lg-5 d-flex justify-content-center">
                             <div className='mt-4 hero-form px-2'
                                 id="zf-widget"
                                 data-zf-embed-id="5077bd3a-d7e0-478d-a7ae-6f338af40110"
