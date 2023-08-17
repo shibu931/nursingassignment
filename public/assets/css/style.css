@@ -79,6 +79,9 @@ body{
     height: 460px;
     width: 80%;
 }
+.banner-img{
+    transform: translateX(40px);
+}
 .title-text{
     text-wrap:nowrap;
 }
