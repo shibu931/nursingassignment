@@ -7,7 +7,7 @@ export default function Banner() {
                 <div className="container-fluid px-3 px-md-5">
                     <div className="row">
                         <div className="col-lg-5">
-                            <div className="mt-5">
+                            <div className="mt-2 mt-md-5">
                                 <div className='d-flex flex-column justify-content-center'>
                                 <h1 className='fw-500 title-text mb-4 p-3 p-lg-0 mt-4 mb-lg-3 d-none d-sm-block text-sm-start text-center'>Worried About Nursing Assignment? <br className='d-none d-sm-block'/> Hire Nursing Assignment Expert</h1>
                                 <h1 className='fw-500 title-text mb-4 p-2 p-lg-0 mt-4 mb-lg-3 display-4 d-block d-sm-none text-sm-start text-center'>Worried About Nursing Assignment <br className='d-none d-sm-block'/> Hire Nursing Assignment Expert</h1>
