@@ -13,16 +13,16 @@ th{
 td{
     vertical-align: middle;
 }
-.table-back table tr td {
+.assignment-table.table-back table tr td {
     border: 4px solid #fdf3f4;
 }
-tbody, td, tfoot, th, thead, tr {
+.assignment-table td th tr {
     border: 4px solid #fdf3f4;
 }
-.table-bordered>:not(caption)>*>* {
+.assignment-table.table-bordered>:not(caption)>*>* {
     border-width: 0 1px;
     border: 4px solid #fdf3f4;
 }
-.table>:not(:last-child)>:last-child>* {
+.assignment-table.table>:not(:last-child)>:last-child>* {
     border-bottom-color: #fdf3f4;
 }

@@ -5,15 +5,15 @@ function Overview() {
   
     <>
     <section>
-    <div className='container'>
+    <div className='container px-3 px-md-0'>
    <div className='py-2'>
 
 
             <div className='row'>
                 <div className='col-lg-8 col-md-6 col-sm-12 col-12'>
                 <div className='heading'>
-            <p className='subheading py-2 fs-5 fw-bold'>Nursing Assignment Expert:</p>
-            <h2 className='fw-bold'>A Comprehensive Overview of Services</h2></div>
+            <p className='subheading py-2 fs-5 fw-bold text-sm-center'>Nursing Assignment Expert:</p>
+            <h2 className='fw-bold text-sm-center'>A Comprehensive Overview of Services</h2></div>
                     <div className='overview-div'>
                         <p className='fs-5 fw-light pe-0 pe-md-5'>Despite potential variances in writing standards amongst variegated disciplines, 
 all academicians must adhere to fundamental writing standards, including 

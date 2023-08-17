@@ -6,13 +6,13 @@ function AssignmentExpert() {
 
    <>
      <section className='assignment-esp-sec '>
-        <div className='container'>
-        <div className='heading text-center'>
-<h2 className='fw-bold mb-4'>Write My Nursing Assignment? We Have The Best <br/>Nursing <span className='text-primary'>Assignment Experts</span> In The Industry</h2>
+        <div className='container '>
+        <div className='heading text-center px-3'>
+<h2 className='fw-bold mb-4'>Write My Nursing Assignment? We Have The Best <br className='d-none d-sm-block'/>Nursing <span className='text-primary'>Assignment Experts</span> In The Industry</h2>
 
 </div>
 
-<div>
+<div className='px-3'>
 <p className='fs-6 text-secondary fs-thin'>Struggling with the intricacies of nursing education? Don't worry - by leveraging the expertise of a nursing assignment writer, you can find your way back onto the road to success. Although the quest for excellence may be extended and winding, the right help will illuminate the path, allowing you to overcome any challenges road to success. Although the quest for excellence may be extended and winding, the right help will illuminate the path, allowing you to overcome any challenges that come your way. Our Nursing Assignment Experts are like a brilliant cluster of stars, each one illuminating the sky with its own unique qualities. They are three exceptional stars in the boundless expanse of nursing education, fashioned to suit the particular needs of students with different financial means. We offer an economical choice for all learners so they can gain access to the expert support required to succeed in their nursing studies. Let us take a closer look at these three categories of nursing assessment experts we have, with each a jewel on its own.</p>
 </div>
         </div>
@@ -21,7 +21,7 @@ function AssignmentExpert() {
     <section className='table-back pb-5'>
         <div className='container py-4 position-relative' style={{"z-index":"2"}}>
           <div className='table-responsive'>
-        <table className="table table-bordered bg-white">
+        <table className="table table-bordered bg-white assignment-table">
   <thead>
     <tr>
       <th scope="col" className='text-center p-2  p-md-4 fs-5 text-dark-blue'>#</th>

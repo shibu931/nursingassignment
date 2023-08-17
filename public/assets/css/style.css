@@ -334,3 +334,16 @@ section{
     bottom: -40%;
     left: -10%;
 }
+@media screen and (max-width:480px){
+    .text-sm-center{
+        text-align: center;
+    }
+    .text-sm-justify{
+        text-align: justify;
+    }
+}
+@media screen and (min-width:480px){
+    .text-lg-justify{
+        text-align: justify;
+    }
+}

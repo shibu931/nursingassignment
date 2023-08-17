@@ -6,12 +6,12 @@ const Key = () => {
     <section className='key-responsbility p-2 px-lg-5' id='writing'>
         <div className='container pb-5 mb-3'>
 <div className='heading text-center'>
-<h2 className='fw-bold fs-1 lh-base mb-4'>What Are The <span className='text-primary'>Key Responsibilities </span> Of Best <br/>
+<h2 className='fw-bold fs-1 lh-base mb-4 pt-4'>What Are The <span className='text-primary'>Key Responsibilities </span> Of Best <br/>
 Nursing Assignment Experts? </h2>
 </div>
 <div>
 <div className='px-0 px-lg-5 text-center mb-4'>
-<p className='text-secondary fs-5 fw-400 px-0 px-md-5' style={{textAlign:"justify"}}>Nursing assignment writing experts play a significant role in the field of nursing by guiding the 
+<p className='text-secondary fs-5 fw-400 px-0 px-md-5 text-lg-justify'>Nursing assignment writing experts play a significant role in the field of nursing by guiding the 
 upcoming generation of nurses. They are responsible for various obligations, including advising 
 and supporting students, offering constructive condemnation and evaluating student work, and 
 staying abreast of nursing advancements. Following are some of the core responsibilities of this 

@@ -36,7 +36,7 @@ export default function Faqs() {
         <>
             <div className="container my-5">
                 <h2 className='fs-3 fw-bold mb-4'>Questions <span className='text-primary'>Asked by</span> Nursing</h2>
-                <Accordion defaultActiveKey={['1','2','3','4','5']} alwaysOpen>
+                <Accordion defaultActiveKey={['1']} alwaysOpen>
                     {
                         faqs.map((data)=>(
                                 <Accordion.Item eventKey={`${data.id}`} key={data.id}>
