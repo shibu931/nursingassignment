@@ -2,6 +2,8 @@ import React from 'react'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import BlogCard from './BlogCard';
+import { Link } from 'react-router-dom';
 
 export default function Blog() {
     const options = {
@@ -34,21 +36,24 @@ export default function Blog() {
             title: "Inappropriate Referencing",
             content: "Sources and citations must always be appropriately addressed in a nursing assignment.The hypothesis and ideas presented in the assignment must be supported by evidence.Finding a reliable reference might",
             image: "blog1",
-            titleColor: "text-success"
+            titleColor: "text-success",
+            link:""
         },
         {
             id: 2,
             title: "Using Erroneous Terminology",
             content: "In all of their work, students should adhere to a standard of nursing terminology. The reader must be able to tell whether the student comprehends the topics by the use of appropriate nursing terminologies. Thus, their",
             image: "blog2",
-            titleColor: "text-warning"
+            titleColor: "text-warning",
+            link:""
         },
         {
             id: 3,
             title: "Scant Evidence",
-            content: "All of your research must be backed up by evidence. When there is proof of the study, your nursing assignment work will be regarded as professionally and academically excellent. Your ideas have to be supported byLearn more....",
+            content: "All of your research must be backed up by evidence. When there is proof of the study, your nursing assignment work will be regarded as professionally and academically excellent. Your ideas have to be supported by",
             image: "blog3",
-            titleColor: "text-primary"
+            titleColor: "text-primary",
+            link:""
         },
     ]
     return (
@@ -60,17 +65,13 @@ export default function Blog() {
                 <OwlCarousel className='owl-theme' {...options}>
                     {
                         blogs.map((data) => (
-                            <div className="blog-card" key={data.id}>
-                                <img src={`./assets/img/${data.image}.webp`} alt="" />
-                                <div className='p-3 p-md-4'>
-                                    <h2 className={`fw-600 fs-4 ${data.titleColor}`}>{data.title}</h2>
-                                    <p className='text-secondary'>{data.content}
-                                        <a href="" className='fw-600 text-dark text-decoration-none'> Learn more...</a></p>
-                                </div>
-                            </div>
+                            <BlogCard data={data}/>
                         ))
                     }
                 </OwlCarousel>
+                <div className='d-flex justify-content-center mt-4'>
+                        <Link to="/blog" className='btn btn-success rounded-pill p-3 fw-bolder ps-3 pe-5 btn-main'>See More Article</Link>
+                </div>
             </div>
         </>
     )

@@ -19,6 +19,21 @@ h1,h2,h3,h4,h5,h5{
 h2{
     color: #003459!important;
 }
+
+.btn-main{
+    position: relative;
+}
+.btn-main::after{
+    position: absolute;
+    content: "\f054";
+    font-family: "Font Awesome 5 Free"!important;
+    font-weight: 900;
+    color: black;
+    background-color: #fff;
+    padding: 0px 7px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
 .pros li::before {
     content: "";
     display: inline-block;
@@ -317,12 +332,52 @@ section{
     border-radius: 30px;
     background-color: #f5f5f5;
   }
-
+  .blog-title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 .blog-card{
     background: rgba(242, 252, 249, 1);
     border-radius: 28px;
     min-height: 480px;
-}  
+}
+.blogs-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+} 
+.blogs-container .blog-card{
+    margin: 0 40px 30px 0;
+} 
+.blogs-container img{
+    width: 100%;
+}
+.blog-banner{
+    background: var(--primary-gradient);
+}
+.search-box{
+    position: absolute;
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 2rem;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+.search-input input{
+    outline: none;
+    border: unset;
+    width: 92%;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.search-input button {
+    border: none;
+    font-size: 1.5rem;
+    background-color: unset;
+    padding-right: 1.5rem;
+    border-right: 1px solid gray;
+}
 .dot-img{
     position: absolute;
     width: 180px;
