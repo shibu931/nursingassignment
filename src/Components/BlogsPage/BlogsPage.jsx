@@ -85,10 +85,10 @@ export default function BlogsPage() {
     return (
         <>
             <div className='blog-banner py-5 mb-5 '>
-                <h1 className='display-5 fw-600 text-white text-center mt-5 mb-4'>NURSING ASSIGNMENT BLOGS</h1>
-                <p className='fs-5 text-light text-center mb-0'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, officiis?</p>
+                <h1 className='display-5 fw-600 text-white text-center mt-4 mt-sm-5 mb-4'>NURSING ASSIGNMENT BLOGS</h1>
+                <p className='fs-5 text-light text-center mb-5 mb-sm-0'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, officiis?</p>
                 <div className="container position-relative">
-                    <p className='text-warning pb-4'><Link to="/" className='text-warning text-decoration-none'>Home</Link> <small><i class="fa-solid fa-chevron-right"></i></small> Blogs</p>
+                    <p className='text-warning pb-4 d-none d-sm-block'><Link to="/" className='text-warning text-decoration-none'>Home</Link> <small><i class="fa-solid fa-chevron-right"></i></small> Blogs</p>
                     <div className="search-box">
                         <form action="" method="get">
                             <div class="search-input">
@@ -102,7 +102,7 @@ export default function BlogsPage() {
 
             <div className="container pt-5">
                 <div className="row">
-                    <div className="col-lg-6 px-3">
+                    <div className="col-lg-6 px-3 mb-5 mb-lg-0">
                         <img src="https://picsum.photos/800/450" className='img-fluid rounded' alt="" />
                         <h2 className='fw-bold fs-3 text-primary ms-1 mt-3'>Lorem, ipsum dolor.</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ex sint sunt atque nemo. Obcaecati cum dolore totam corporis ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatem iure in expedita laboriosam suscipit explicabo sapiente velit veritatis incidunt?</p>
@@ -112,30 +112,30 @@ export default function BlogsPage() {
                     <div className="col-lg-6">
                         <h4 className='fw-thin'>Featured Article</h4>
                         <div className="row gap-3">
-                            <div className="col-12 border rounded p-2">
-                                <div className="d-flex">
+                            <div className="col-12 ps-2 pe-3 ps-sm-2 pe-sm-2 feature-box">
+                                <div className="d-flex p-2 border rounded">
                                     <img src="https://picsum.photos/120/120" className='rounded' alt="" />
                                     <div className='ms-3'>
-                                        <p className='mb-1 fs-5'><Link to="" className='text-decoration-none'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, autem.</Link></p>
-                                        <p className='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni perferendis quos veniam, ipsam obcaecati, aut porro vero vel quis fugit </p>
+                                        <p className='mb-0 mb-sm-1 fs-5 lh-sm wrap-text wrap-text-2 font-poppins'><Link to="" className='text-decoration-none'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, autem.</Link></p>
+                                        <p className='mb-0 wrap-text wrap-text-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni perferendis quos veniam, ipsam obcaecati, aut porro vero vel quis fugit </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12 border rounded p-2">
-                                <div className="d-flex">
+                            <div className="col-12 ps-2 pe-3 ps-sm-2 pe-sm-2 feature-box">
+                                <div className="d-flex p-2 border rounded">
                                     <img src="https://picsum.photos/120/120" className='rounded' alt="" />
                                     <div className='ms-3'>
-                                        <p className='mb-1 fs-5'><Link to="" className='text-decoration-none'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, autem.</Link></p>
-                                        <p className='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni perferendis quos veniam, ipsam obcaecati, aut porro vero vel quis fugit </p>
+                                        <p className='mb-0 mb-sm-1 fs-5 lh-sm wrap-text wrap-text-2 font-poppins'><Link to="" className='text-decoration-none'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, autem.</Link></p>
+                                        <p className='mb-0 wrap-text wrap-text-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni perferendis quos veniam, ipsam obcaecati, aut porro vero vel quis fugit </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12 border rounded p-2">
-                                <div className="d-flex">
+                            <div className="col-12 ps-2 pe-3 ps-sm-2 pe-sm-2 feature-box">
+                                <div className="d-flex p-2 border rounded">
                                     <img src="https://picsum.photos/120/120" className='rounded' alt="" />
                                     <div className='ms-3'>
-                                        <p className='mb-1 fs-5'><Link to="" className='text-decoration-none'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, autem.</Link></p>
-                                        <p className='mb-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni perferendis quos veniam, ipsam obcaecati, aut porro vero vel quis fugit </p>
+                                        <p className='mb-0 mb-sm-1 fs-5 lh-sm wrap-text wrap-text-2 font-poppins'><Link to="" className='text-decoration-none'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, autem.</Link></p>
+                                        <p className='mb-0 wrap-text wrap-text-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magni perferendis quos veniam, ipsam obcaecati, aut porro vero vel quis fugit </p>
                                     </div>
                                 </div>
                             </div>

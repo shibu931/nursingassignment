@@ -16,6 +16,9 @@
 h1,h2,h3,h4,h5,h5{
     font-family: 'Poppins', sans-serif!important;
 }
+.font-poppins{
+    font-family: 'Poppins', sans-serif!important
+}
 h2{
     color: #003459!important;
 }
@@ -398,6 +401,34 @@ section{
     }
     .text-sm-justify{
         text-align: justify;
+    }
+    .search-input input{
+        width:82%
+    }
+    .search-box{
+        padding: 15px 10px;
+        width: 94%;
+        margin-top: 10px;
+    }
+    .search-input button{
+        padding-right: 10px;
+    }
+    .blogs-container .blog-card{
+        margin: 0 0 20px 0;
+    }
+    .wrap-text{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+    .wrap-text-2{
+        height: 53px;
+        -webkit-line-clamp: 2;
+    }
+    .wrap-text-3{
+        height: 60px;
+        font-size: 14px;
+        -webkit-line-clamp: 3;
     }
 }
 @media screen and (min-width:480px){
