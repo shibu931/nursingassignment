@@ -1,4 +1,5 @@
 import React from 'react'
+import Form from './Form'
 
 export default function Banner() {
     return (
@@ -43,13 +44,7 @@ export default function Banner() {
                             </div>
                         </div>
                         <div className="col-lg-4 px-0 px-lg-5 d-flex justify-content-center">
-                            <div className='mt-4 hero-form px-2'
-                                id="zf-widget"
-                                data-zf-embed-id="5077bd3a-d7e0-478d-a7ae-6f338af40110"
-                                data-zf-id="NNt6bNhlQmUouNKzRXih"
-                                data-zf-d_id="nBMMT5kcaufRTAf2t"
-                                data-zf-type="standard"
-                            ></div>
+                            <Form/>
                         </div>
                     </div>
                 </div>

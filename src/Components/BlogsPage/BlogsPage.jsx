@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import BlogCard from '../BlogCard'
 import { Link } from 'react-router-dom'
+import BlogBanner from './BlogBanner'
 
 export default function BlogsPage() {
     
@@ -78,28 +79,10 @@ export default function BlogsPage() {
             link: "/article"
         },
     ]
-    const [inputQuery,setInputQuery] = useState("");
-    function setData(e){
-        setInputQuery(e.target.value)
-    }
+    
     return (
         <>
-            <div className='blog-banner py-5 mb-5 '>
-                <h1 className='display-5 fw-600 text-white text-center mt-4 mt-sm-5 mb-4'>NURSING ASSIGNMENT BLOGS</h1>
-                <p className='fs-5 text-light text-center mb-5 mb-sm-0'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, officiis?</p>
-                <div className="container position-relative">
-                    <p className='text-warning pb-4 d-none d-sm-block'><Link to="/" className='text-warning text-decoration-none'>Home</Link> <small><i class="fa-solid fa-chevron-right"></i></small> Blogs</p>
-                    <div className="search-box">
-                        <form action="" method="get">
-                            <div class="search-input">
-                                <button type="submit"><span><i class="fa-solid fa-magnifying-glass"></i></span></button>
-                                <input type="text" name="squery" placeholder="Search Your Blog Here" value={inputQuery} onChange={setData}/>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
+        <BlogBanner/>
             <div className="container pt-5">
                 <div className="row">
                     <div className="col-lg-6 px-3 mb-5 mb-lg-0">
@@ -144,23 +127,25 @@ export default function BlogsPage() {
                 </div>
             </div>
 
-            <div class="other-articles pt-5">
+            <div className="other-articles pt-5">
                 <section className="blog">
-                    <div class="container">
-                        <h2 class="fs-1 fw-bold">Latest Articles</h2>
+                    <div className="container">
+                        <h2 className="fs-1 fw-bold mb-4">Latest Articles</h2>
                         <div className="blogs-container">
+                            <div className="row">
                             {
                                 blogs.map((item, index) => (
-                                    <div className='col-lg-4'>
-                                        <BlogCard data={item} />
+                                    <div className='col-lg-4' key={index}>
+                                        <BlogCard data={item}/>
                                     </div>
                                 ))
                             }
+                            </div>
                         </div>
                     </div>
                 </section>
-                <div class="d-flex justify-content-center w-100 mb-4">
-                    <button class="btn btn-success btn-main py-3 ps-3 pe-5 rounded-pill ">SEE MORE ARTICLE
+                <div className="d-flex justify-content-center w-100 mb-4">
+                    <button className="btn btn-success btn-main py-3 ps-3 pe-5 rounded-pill ">SEE MORE ARTICLE
                     </button>
                 </div>
             </div>

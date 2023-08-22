@@ -19,7 +19,7 @@ function AssignmentExpert() {
     </section>
 
     <section className='table-back pb-5'>
-        <div className='container py-4 position-relative' style={{"z-index":"2"}}>
+        <div className='container py-4 position-relative' style={{zIndex:"2"}}>
           <div className='table-responsive'>
         <table className="table table-bordered bg-white assignment-table">
   <thead>
