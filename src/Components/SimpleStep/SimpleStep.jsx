@@ -33,7 +33,7 @@ function SimpleStep() {
                   src="../assets/img/talk-to-us.webp"/>
     <h4 className='fs-5'>Talk To Us</h4>
     
-   <p>The writing work is <br/>allocated to the most </p>
+   <p>The writing work is <br/>allocated to the most suitable expert</p>
        
    
 </div>

@@ -37,7 +37,7 @@ export default function Blog() {
             content: "Sources and citations must always be appropriately addressed in a nursing assignment.The hypothesis and ideas presented in the assignment must be supported by evidence.Finding a reliable reference might",
             image: "blog1",
             titleColor: "text-success",
-            link:""
+            link:"/article"
         },
         {
             id: 2,
@@ -45,7 +45,7 @@ export default function Blog() {
             content: "In all of their work, students should adhere to a standard of nursing terminology. The reader must be able to tell whether the student comprehends the topics by the use of appropriate nursing terminologies. Thus, their",
             image: "blog2",
             titleColor: "text-warning",
-            link:""
+            link:"/article"
         },
         {
             id: 3,
@@ -53,7 +53,15 @@ export default function Blog() {
             content: "All of your research must be backed up by evidence. When there is proof of the study, your nursing assignment work will be regarded as professionally and academically excellent. Your ideas have to be supported by",
             image: "blog3",
             titleColor: "text-primary",
-            link:""
+            link:"/article"
+        },
+        {
+            id: 3,
+            title: "Limited Practical Knowledge",
+            content: "Students must actively pursue acquiring practical skills in order to complete a nursing assignment writing task. They will be able to curate the task more efficiently via the use of practical skills. Nursing research paper projects and assignments will represent students’ practical learning.",
+            image: "blog3",
+            titleColor: "text-success",
+            link:"/article"
         },
     ]
     return (

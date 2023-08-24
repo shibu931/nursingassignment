@@ -25,6 +25,7 @@ export default function Footer() {
                       <li><a href="#" className='fs-5'>Clinical Nursing</a></li>
                       <li><a href="#" className='fs-5'>Caridac Nursing</a></li>
                       <li><a href="#" className='fs-5'>Cardiac Nursing</a></li>
+                      <li><a href="#" className='fs-5'>Human Nutrition Nursing</a></li>
                     </ul>
                   </div>
                   <div className="col-lg-3 col-md-6 p-2">
@@ -39,7 +40,7 @@ export default function Footer() {
                     <h2 className='fs-4 fw-600 text-light'>Contact US</h2>
                     <ul className='list-unstyled'>
                       <li><p className='mb-1 fs-5'><strong>Phone: </strong>+123445667</p></li>
-                      <li><p className='mb-1 fs-5'><strong>Email: </strong>abc@gmail.com</p></li>
+                      <li><p className='mb-1 fs-5'><strong>Email: </strong>info@nursingassignmenthelp.com.au</p></li>
                       <li><p className='mb-1 fs-5'><strong>Address: </strong>abc, Street 1, State</p></li>
                     </ul>
                   </div>

@@ -51,6 +51,34 @@ export default function Carousel() {
             profile:"ashley",
             orderCode:"NAE3212"
         },
+        {
+            id:4,
+            name:"Steph",
+            review:"Nursing Assignment Expert have a good team of nursing assignment experts. I,m so appreciate their woks with assignments and time management. Also their have a satisfied assistance. I got my assignment on nursing within 24 hours.",
+            profile:"ashley",
+            orderCode:"NAE2453"
+        },
+        {
+            id:5,
+            name:"Jennifer",
+            review:"According to me my experience with Nursing Assignment Expert, they provide plag-free assignment at affordable price. I was in trouble doing one of my nursing assignment and they supported me and thereby I submitted it on time within 2 days.",
+            profile:"ashley",
+            orderCode:"NAE3221"
+        },
+        {
+            id:6,
+            name:"Ruby",
+            review:"Nursing Assignment Expert is one of the best assignment helper for me as a nursing stduents. They fulfils all the requirements, provide the assignment work on time with the best quality. MY experience with them is wonderful. I hope, they will do best as well in future. Keep it up.",
+            profile:"ashley",
+            orderCode:"NAE2321"
+        },
+        {
+            id:7,
+            name:"Samantha",
+            review:"The Writers in Nursing Assignment Expert are really professional! I am extremely pleased with the academic service. Online support team were very helpful explaining how to place an order on your site and how to upload assignments instructions. And I received my nursing assignment before submission deadline.",
+            profile:"ashley",
+            orderCode:"NAE3453"
+        }
     ]
     return (
         <>
