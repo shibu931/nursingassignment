@@ -8,8 +8,7 @@ export default function Footer() {
               <div className="container text-light py-4">
                 <div className="row">
                   <div className="col-lg-3 col-md-6 p-2">
-                    <h2 className='fs-4 fw-600'>LOGO</h2>
-                    <p className='fs-5 mb-5'>Company's Motto</p>
+                    <img src="./assets/img/logo.webp" alt="" width={150}/>
                     <ul className='list-unstyled d-flex'>
                       <li><span className='text-secondary fs-4 m-2'><i className="fa-brands fa-facebook"></i></span></li>
                       <li><span className='text-secondary fs-4 m-2'><i className="fa-brands fa-square-instagram"></i></span></li>
