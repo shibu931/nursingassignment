@@ -8,7 +8,7 @@ export default function Article() {
     const [blogData,setBlogData] = useState({})
     async function fetchData(){
         const response = await fetch("https://www.thestudenthelpline.co.in/api.php");
-  const data = await response.json();
+        const data = await response.json();
         setBlogData(data[0])
         console.log(data)
     }
