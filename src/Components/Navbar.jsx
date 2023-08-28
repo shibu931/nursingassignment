@@ -2,27 +2,27 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
-    useEffect(() => {
-        const header = document.getElementsByTagName("nav");
-        const element1 = document.querySelector('.hero-banner');
-        const observer1 = new IntersectionObserver(entries => {
-          entries.forEach(entry => {
-            if (!entry.isIntersecting) {
-              header[0].classList.add('bg-light', 'shadow', 'sticky-top');
-            } else {
-              header[0].classList.remove('sticky-top', 'bg-light', 'shadow');
-            }
-          });
-        }, {
-          root: null,
-          rootMargin: "-200px",
-          threshold: "0"
-        });
-        observer1.observe(element1);
-        return () => {
-          observer1.disconnect();
-        };
-      }, [])
+    // useEffect(() => {
+    //     const header = document.getElementsByTagName("nav");
+    //     const element1 = document.querySelector('.hero-banner');
+    //     const observer1 = new IntersectionObserver(entries => {
+    //       entries.forEach(entry => {
+    //         if (!entry.isIntersecting) {
+    //           header[0].classList.add('bg-light', 'shadow', 'sticky-top');
+    //         } else {
+    //           header[0].classList.remove('sticky-top', 'bg-light', 'shadow');
+    //         }
+    //       });
+    //     }, {
+    //       root: null,
+    //       rootMargin: "-200px",
+    //       threshold: "0"
+    //     });
+    //     observer1.observe(element1);
+    //     return () => {
+    //       observer1.disconnect();
+    //     };
+    //   }, [])
     return (
         <nav className="navbar navbar-expand-lg">
             <div className="container-fluid px-2 px-sm-5">

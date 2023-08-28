@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import BlogBanner from './BlogBanner'
 import BlogCard from '../BlogCard'
+import { Button } from 'bootstrap';
 
 
 export default function Article() {
+    const [blogData,setBlogData] = useState({})
+    async function fetchData(){
+        const response = await fetch("https://www.thestudenthelpline.co.in/api.php");
+  const data = await response.json();
+        setBlogData(data[0])
+        console.log(data)
+    }
     const blogs = [
         {
             id: 1,
@@ -81,6 +89,7 @@ export default function Article() {
   return (
     <>
         <BlogBanner/>
+        <button onClick={fetchData}>Call Api</button>
         <div className="container-xxl mt-10 mb-5">
         <div className="row">
             <div className="col-md-3 px-3">
@@ -101,14 +110,17 @@ export default function Article() {
             </div>
             <div className="col-md-6 px-3">
                 <div className="blog-header">
-                    <h2 className="fs-4 fw-bolder mb-4">37 Best Content Creation Tools & Software in 2023</h2>
+                    <h2 className="fs-4 fw-bolder mb-4">{blogData ? blogData.blog_title: "37 Best Content Creation Tools & Software in 2023"}</h2>
                     <div className="d-flex flex-wrap gap-2">
                         <span className="info-orange px-4 py-2 rounded-pill">PUBLISHED BY ARTEM MINAEV</span>
                         <span className="info-green px-4 py-2 rounded-pill">UPDATED: APRIL 11th,2023</span>
                     </div>
                 </div>
                 <div className="blog-body mt-4">
-                    <img src="../assets/img/image6-1 3.png" width="100%" className="mb-4" alt=""/>
+                    {
+                        blogData ? <div dangerouslySetInnerHTML={{ __html: blogData.blog_content }} />:
+                        <>
+                                                <img src="../assets/img/image6-1 3.png" width="100%" className="mb-4" alt=""/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ipsa quaerat vero unde. Quae
                         recusandae eligendi modi praesentium neque in nobis earum unde sequi eaque tempora repellendus,
                         dolores error totam repellat aliquid facilis saepe ipsam asperiores! Veritatis, enim? Nemo
@@ -142,6 +154,8 @@ export default function Article() {
                         neque non ullam sit esse sunt, sed laudantium. Ipsam iusto vero voluptate error itaque
                         repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, consectetur.
                         Quis consectetur sint esse! Porro! </p>
+                        </>
+                    }
                 </div>
             </div>
             <div className="col-md-3 px-3">
