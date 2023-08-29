@@ -84,6 +84,13 @@ body{
 .hero-banner{
     background: var(--primary-gradient);
     color: #fff;
+    margin-bottom: 7rem;
+}
+.counter-box{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%);
+    bottom: 0%;
 }
 .counter-box{
     background-color: #fff;
@@ -98,10 +105,15 @@ body{
     width: 80%;
 }
 .banner-img{
-    transform: translateX(40px);
+    /* transform: translateX(40px); */
 }
 .title-text{
     text-wrap:nowrap;
+}
+.vl{
+    width: 2px;
+    height: 55px;
+    background-color: rgb(78, 199, 158);
 }
 @media screen and (max-width:481px) {
     .hero-form{
@@ -110,6 +122,12 @@ body{
     }
     .title-text{
         text-wrap:wrap;
+    }
+    .counter-box{
+        left: 0;
+        bottom: -5%;
+        margin: 20px;
+        transform: translate(0%,50%);
     }
 }
 .dots{
@@ -506,3 +524,29 @@ ol li {
     padding: 1rem;
 }
 /*Blogs Page CSS End here*/
+.defaultBtn{
+    margin: auto;
+    background-color: #0887ff!important;
+    padding: 12px 36px 12px 65px!important;
+    border-radius:30px!important;
+    position: relative!important;
+    border-bottom: 4px solid #065fb3!important;
+    text-decoration: none!important;
+    color: white!important;
+    font-size: 20px!important;
+    text-shadow: 1px 1px 1px #2f2f2f!important;
+    font-weight: 600!important;
+}
+.defaultBtn::before{
+    content: ""!important;
+    background-image: url("../img/telegram.svg")!important;
+    background-size: contain!important;
+    background-color: #0887ff!important;
+    border-radius: 50%!important;
+    position: absolute!important;
+    height: 60px!important;
+    width: 60px!important;
+    top: -2px!important;
+    left: -5%!important;
+    border: 5px solid #065fb3!important;
+}
