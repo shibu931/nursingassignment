@@ -72,8 +72,8 @@ export default function Blog() {
                 </div>
                 <OwlCarousel className='owl-theme' {...options}>
                     {
-                        blogs.map((data) => (
-                            <BlogCard data={data}/>
+                        blogs.map((data,index) => (
+                            <BlogCard data={data} key={index}/>
                         ))
                     }
                 </OwlCarousel>

@@ -2,6 +2,16 @@ import React, { useEffect } from 'react'
 import EmbedForm from './Form'
 
 export default function Banner() {
+    useEffect(()=>{
+            const script = document.createElement("script");
+    script.src = "https://assets.frms.link/widgets/mfwidget.js";
+    script.async = true;
+
+    document.body.appendChild(script);
+        script.onload = () => {
+            new window.MFWidget('64ed91de9d13aad6fcad0588').init();
+        }
+    },[])
     return (
         <>
             <div className="hero-banner position-relative">
@@ -15,7 +25,7 @@ export default function Banner() {
                                         Nursing Assignment experts, writers for all assignment on nursing at best prices with upto 50% off.
                                     </h2>
                                     <div className='my-3'>
-                                        <EmbedForm/>
+                                    <div id="64ed91de9d13aad6fcad0588" ></div>
                                     </div>
                                 </div>
 
