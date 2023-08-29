@@ -430,6 +430,9 @@ section{
         font-size: 14px;
         -webkit-line-clamp: 3;
     }
+    .w-80{
+        width: 100%;
+    }
 }
 @media screen and (min-width:480px){
     .text-lg-justify{
