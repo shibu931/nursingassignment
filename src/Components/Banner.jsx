@@ -43,7 +43,7 @@ export default function Banner() {
                                 <img src="./assets/img/nurse.webp" className='position-relative d-none d-lg-block' style={{zIndex:"2"}} width="370px" alt="" />
                             </div>
                         </div>
-                        <div className="col-lg-4 px-2 px-lg-2 d-flex justify-content-center">
+                        <div className="col-lg-4 pe-2 pe-lg-0 ps-2 ps-lg-5 d-flex justify-content-center">
                             <Form/>
                         </div>
                     </div>

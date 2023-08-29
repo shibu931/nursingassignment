@@ -14,7 +14,7 @@ function EmbedForm() {
     };
   }, []);
 
-  return <div formsappId="64edf9f987b11fad18feb978" className='w-75'></div>;
+  return <div formsappId="64edf9f987b11fad18feb978" className='w-80'></div>;
 }
 
 export default EmbedForm;
