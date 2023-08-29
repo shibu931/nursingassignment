@@ -10,7 +10,7 @@ function EmbedForm() {
     document.body.appendChild(script);
 
     script.onload = () => {
-      var formsappForm = new window.formsapp('64edf9f987b11fad18feb978', 'standard', {"width":"100vw","height":"450px","opacity":0})
+      var formsappForm = new window.formsapp('64edf9f987b11fad18feb978', 'standard', {"width":"90%","height":"450px","opacity":0})
     };
   }, []);
 
