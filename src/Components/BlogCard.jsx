@@ -9,7 +9,8 @@ export default function BlogCard({data}) {
             <div className='p-3 p-md-4'>
                 <Link to={`/article/${url}`} className='text-decoration-none'><h2 className={`fw-600 fs-4 blog-title ${data.titleColor}`}>{data.title}</h2></Link>
                 <p className='text-secondary'>{data.content}
-                    <Link to={`/article/${url}`} className='fw-600 text-dark text-decoration-none'> Learn more...</Link></p>
+                    {/* <Link to={`/article/${url}`} className='fw-600 text-dark text-decoration-none'> Learn more...</Link> */}
+                    </p>
             </div>
         </div>
     )

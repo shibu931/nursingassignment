@@ -77,9 +77,9 @@ export default function Blog() {
                         ))
                     }
                 </OwlCarousel>
-                <div className='d-flex justify-content-center mt-4'>
+                {/* <div className='d-flex justify-content-center mt-4'>
                         <Link to="/blog" className='btn btn-success rounded-pill p-3 fw-bolder ps-3 pe-5 btn-main'>See More Article</Link>
-                </div>
+                </div> */}
             </div>
         </>
     )

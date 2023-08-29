@@ -34,7 +34,7 @@ export default function Banner() {
                         <div className="col-lg-5">
                             <div className='banner-img'>
                                 <span className='dots d-none d-lg-block'></span>
-                                <img src="./assets/img/nurse.webp" className='position-relative ' style={{ zIndex: "0" }} width="90%" alt="" />
+                                <img src="./assets/img/nurse.webp" className='position-relative ' style={{ zIndex: "2" }} width="90%" alt="" />
                             </div>
                         </div>
                     </div>
