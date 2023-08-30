@@ -139,7 +139,7 @@ body{
     position: absolute;
     width: 150px;
     height: 250px;
-    right: 0;
+    right: 15%;
     top: 100px;
     background-image: url("../img/dots.png");
     z-index: 1;
@@ -449,6 +449,9 @@ section{
         font-size: 14px;
         -webkit-line-clamp: 3;
     }
+    .w-80{
+        width: 90%!important;
+    }
 }
 @media screen and (min-width:480px){
     .text-lg-justify{
@@ -550,4 +553,7 @@ ol li {
     top: -2px!important;
     left: -5%!important;
     border: 5px solid #065fb3!important;
+}
+.w-80{
+    width: 80%;
 }
