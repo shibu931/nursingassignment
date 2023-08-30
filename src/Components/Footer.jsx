@@ -4,6 +4,9 @@ export default function Footer() {
   return (
     <>
         <footer>
+        <a href="https://api.whatsapp.com/send?phone=61493535569&amp;text=Hey!%20I%20need%20help" className="btn-whatsapp-pulse">
+	<i className="fab fa-whatsapp"></i>
+</a>
             <div className="footer-top">
               <div className="container text-light py-4">
                 <div className="row">
