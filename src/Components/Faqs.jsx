@@ -5,19 +5,19 @@ export default function Faqs() {
     const faqs =[
         {
             id:1,
-            title:"How Are Nursing Assignment Experts Going To Assist?",
+            title:"How Are Nursing Assignment Experts going to help with coursework?",
             content:"The greatest and most well-known gurus of nursing writing services can offer you the best solutions and enhance your chance of being chosen as a nurse. Our nursing assignment expert and Canada standards."
         },
         {
             id:2,
-            title:"What Makes Us The Best Nursing Assignment Writing Service?",
-            content:"Since you recruited us to do my nursing assignments, we'll ensure to be available round-the-clock for guidance, both during the process and after it is complete. We can save you a ton of time by providing rapid feedback, and our prompt responses will ascertain our commitment to assignment help seekers."
+            title:"Which is the The Best Nursing Assignment Writing Service?",
+            content:"Undoubtedly Nursingassignmenthelp.com.au is the best Nursing assignment help in Australia . Since you recruited us to do nursing assignments, we'll ensure to be available round-the-clock for guidance, both during the process and after it is complete. We can save you a ton of time by providing rapid feedback, and our prompt responses will ascertain our commitment to assignment help seekers."
         }
         ,
         {
             id:3,
-            title:"How To Hire Someone To Do My Nursing Assignment?",
-            content:"Please contact us right away if you need help with your nursing homework or assignments. Our competent nursing assignment experts will assist you with outstanding online nursing assignment at a reasonable price. Visit our website, and fill out the form to acquire our professionals with ease. They possess significant expertise and are well qualified"
+            title:"Can I Hire Someone To Do My Nursing Assignment?",
+            content:"Yes, you may contact Nursingassignmenthelp.com.au right away if you need help with your nursing homework or assignments. Our competent nursing assignment experts will assist you with outstanding online nursing assignment at a reasonable price. Visit our website, and fill out the form to acquire our professionals with ease. They possess significant expertise and are well qualified"
         }
         ,
         {

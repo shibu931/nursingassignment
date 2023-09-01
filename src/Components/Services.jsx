@@ -14,7 +14,7 @@ export default function Services() {
         },
         {
             id:3,
-            name:"Nursing Ressearch Paper",
+            name:"Nursing Research Paper",
             color:"text-success"
         },
         {
@@ -29,7 +29,7 @@ export default function Services() {
         },
         {
             id:6,
-            name:"Nursing Disssertation",
+            name:"Nursing Dissertation",
             color:"text-warning"
         },
         {
@@ -44,7 +44,7 @@ export default function Services() {
         },
         {
             id:9,
-            name:"Nursing Disssertation",
+            name:"Nursing Dissertation",
             color:"text-danger"
         },
         {

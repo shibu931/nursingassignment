@@ -41,9 +41,9 @@ export default function Footer() {
                   <div className="col-lg-3 col-md-6 p-2" id='contact'>
                     <h2 className='fs-4 fw-600 text-light'>Contact US</h2>
                     <ul className='list-unstyled'>
-                      <li><p className='mb-1 fs-5'><strong>Phone: </strong>+123445667</p></li>
+                      <li><p className='mb-1 fs-5'><strong>Phone: </strong>+61 493535569</p></li>
                       <li><p className='mb-1 fs-5'><strong>Email: </strong>info@nursingassignmenthelp.com.au</p></li>
-                      <li><p className='mb-1 fs-5'><strong>Address: </strong>abc, Street 1, State</p></li>
+                      <li><p className='mb-1 fs-5'><strong>Address: </strong>Peebles Street, Endeavour Hills Australia - 3802</p></li>
                     </ul>
                   </div>
                 </div>

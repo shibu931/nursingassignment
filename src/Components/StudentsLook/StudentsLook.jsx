@@ -10,10 +10,10 @@ function StudentsLook() {
     <div className='col-lg-8'>
       <div className='py-5 px-2 px-sm-5'>
     <div className='heading'>
-<h2 className='fw-bold'>Why Do <span className='text-primary'>Students Look</span> For <br/> Nursing Assignment Expert? </h2>
+<h2 className='fw-bold'>Why Do <span className='text-primary'>Students Need</span><br/> Nursing Assignment Help? </h2>
 </div>
         <div>
-<p className='fs-5 fw-light'>Knowledgeable guidance is essential for nursing students as the area of nursing encompasses a multitude of fields and subjects. A thorough comprehension of each topic is required, from the intricacies of anatomy and pharmacology to the ethical aspects of patient care. Nursing assignments call for ample research and analysis along with clear, well-structured writing that’s up to the highest standard of academic excellence. In order to help students, increase their proficiency and understanding, nursing can be a great asset, providing much-needed guidance and support. Nursing Assignment Expert is individualized to meet the distinct needs of every student. Get personalized attention through one-on-one sessions, tutoring, or tailor-made coursework. With the support and specialist advice from a nursing homework expert, success is within your reach!</p>
+<p className='fs-5 fw-light'>Knowledgeable guidance is essential for nursing students as the area of nursing encompasses a multitude of fields and subjects. A thorough comprehension of each topic is required, from the intricacies of anatomy and pharmacology to the ethical aspects of patient care. Nursing assignments call for ample research and analysis along with clear, well-structured writing that’s up to the highest standard of academic excellence. In order to help students, increase their proficiency and understanding, nursing can be a great asset, providing much-needed guidance and support. Nursing Assignment Help is individualized to meet the distinct needs of every student. Get personalized attention through one-on-one sessions, tutoring, or tailor-made coursework. With the support and specialist advice from a nursing homework expert, success is within your reach!</p>
         </div>
 
         </div>

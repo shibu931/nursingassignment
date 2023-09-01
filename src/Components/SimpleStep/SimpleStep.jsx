@@ -46,7 +46,7 @@ function SimpleStep() {
                   alt="abc"
                   src="../assets/img/make-payment.webp"
                 />
-   <h4 className='fs-5'>Make Payment</h4>
+   <h4 className='fs-5'>Make Partial Payment</h4>
     <p>You need to make <br/>payment through the <br/>secured payment system.</p>
        
    

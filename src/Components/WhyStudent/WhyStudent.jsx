@@ -9,7 +9,7 @@ function WhyStudent() {
       <img src="./assets/img/dots.png" className='dot-img d-none d-md-block'  alt="" />
       <img src="./assets/img/dots.png" className='bottom-dot-img d-none d-md-block'  alt="" />
       <div className='text-center text-white py-3'>
-    <h2 className='fw-bold text-light fs-1 text-center'>Nursing Assignment Expert Reveals Nauseating Truth About Assignment</h2>
+    <h2 className='fw-bold text-light fs-1 text-center'>Nursing Assignment Help Reveals Nauseating Truth About Assignment</h2>
 </div>
 
 

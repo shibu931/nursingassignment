@@ -6,16 +6,12 @@ const Key = () => {
     <section className='key-responsbility p-2 px-lg-5' id='writing'>
         <div className='container pb-5 mb-3'>
 <div className='heading text-center'>
-<h2 className='fw-bold fs-1 lh-base mb-4 pt-4'>What Are The <span className='text-primary'>Key Responsibilities </span> Of Best <br/>
-Nursing Assignment Experts? </h2>
+<h2 className='fw-bold fs-1 lh-base mb-4 pt-4'>Top <span className='text-primary'>6 Key</span> Responsibilities Of<br/>
+Nursing Assignment Help? </h2>
 </div>
 <div>
 <div className='px-0 px-lg-5 text-center mb-4'>
-<p className='text-secondary fs-5 fw-400 px-0 px-md-5 text-lg-justify'>Nursing assignment writing experts play a significant role in the field of nursing by guiding the 
-upcoming generation of nurses. They are responsible for various obligations, including advising 
-and supporting students, offering constructive condemnation and evaluating student work, and 
-staying abreast of nursing advancements. Following are some of the core responsibilities of this 
-important profession offered by Nursing assignment expert Australia:</p>
+<p className='text-secondary fs-5 fw-400 px-0 px-md-5 text-lg-justify'>Nursing assignment writing helps play a significant role in the field of nursing by guiding the upcoming generation of nurses. They are responsible for various obligations, including advising and supporting students, offering constructive condemnation and evaluating student work, and staying abreast of nursing advancements.</p>
 </div>
 </div>
 
@@ -28,7 +24,7 @@ important profession offered by Nursing assignment expert Australia:</p>
                   src="../assets/img/conducting-in-depth-research-64ccd29753cd4.webp"
                 />
     <h3 className='fs-5 fw-bold'>Conducting in-depth research</h3>
-    <p className='pe-4'>It is the responsibility of a nursing assignment writing expert to conduct in-depth research on the allocated nursing topic in order to deliver accurate and current data. They possess an extensive comprehension of the latest nursing theories, practices, and procedures, allowing them to assemble premium-grade nursing assignments.
+    <p className='pe-4'>It is the responsibility of a nursing assignment writing help to conduct in-depth research on the allocated nursing topic in order to deliver accurate and current data. They possess an extensive comprehension of the latest nursing theories, practices, and procedures, allowing them to assemble premium-grade nursing assignments.
     </p>
 </div>
 
@@ -62,7 +58,7 @@ important profession offered by Nursing assignment expert Australia:</p>
                   src="../assets/img/one-to-one-live-sessions-64ccd296a0613.webp"
                 />
     <h3 className='fs-5 fw-bold'>One-to-one live sessions</h3>
-  <p className='pe-4'>If you are a nursing student seeking for someone to do my nursing assignment? An expert is available to provide one-on-one live sessions. You will benefit from individualized tutelage and tips, such as clearing up misunderstandings, asking questions, and getting information on tackling nursing assignments effectively.</p>
+  <p className='pe-4'> If you are a nursing student seeking for someone to do my nursing assignment? An expert is available to provide one-on-one live sessions. You will benefit from individualized tutelage and tips, such as clearing up misunderstandings, asking questions, and getting information on tackling nursing assignments effectively.</p>
 </div>
 
 <div></div>
@@ -76,7 +72,7 @@ important profession offered by Nursing assignment expert Australia:</p>
                   src="../assets/img/tutoring-assistance-64ccd2969a46e.webp"
                 />
     <h3 className='fs-5 fw-bold'>Tutoring assistance</h3>
-   <p className='pe-4'> Nursing assignment experts help provide comprehensive tutoring services to nursing students who may need a firm grasp on certain topics. With their expertise and experience, they are able to assist the student in deeply understanding the topic and gaining the necessary skills required for their academic success.</p>
+   <p className='pe-4'>Nursing assignment experts help provide comprehensive tutoring services to nursing students who may need a firm grasp on certain topics. With their expertise and experience, they are able to assist the student in deeply understanding the topic and gaining the necessary skills required for their academic success.</p>
 </div>
 </div>
 
@@ -93,7 +89,8 @@ important profession offered by Nursing assignment expert Australia:</p>
                   src="../assets/img/abreast-of-the-latest-knowledge-64ccd295f1dd0.webp"
                 />
     <h3 className='fs-5 fw-bold'>Abreast of the latest knowledge and <br/>techniques in the field</h3>
-   <p className='pe-4'>Best Nursing Assignment Experts are kept abreast of the newest trends in the nursing area by participating in conferences, skimming through scholarly journals, and establishing connections with other renowned professionals in the industry. This helps them to supply nursing students with the most precise and dependable advice and to remain a leader in the nursing education sector.</p>
+   <p className='pe-4'>Best Nursing Assignment Experts are kept abreast of the newest trends in the nursing area by participating in conferences, skimming through scholarly journals, and establishing connections with other renowned professionals in the industry. This helps them to supply nursing students with the most precise and dependable advice and to remain a leader in the nursing education sector.
+</p>
 </div>
 
 <div></div>

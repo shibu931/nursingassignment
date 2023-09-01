@@ -7,7 +7,7 @@ function AsPerUniversity() {
    <section className='py-5'>
     <div className='container'>
     <div className='heading text-center py-4'>
-<h2 className='fs-1 fw-bold mb-5'>First Aid Nursing Assignment Expert  <br/> Response <span className='text-primary'>As Per University</span> Standards</h2>
+<h2 className='fs-1 fw-bold mb-5'>Recent Nursing Assignments<br/> Covered For <span className='text-primary'>University Students</span></h2>
 </div>
 <div>
     <div className='row'>
@@ -23,7 +23,7 @@ function AsPerUniversity() {
         <p>Conestoga Help With Nursing Assignment</p>
       </div>
       <div>
-        <p className='countrypara'>(PNUR1220, PNUR1228, PNUR1243, PNUR1143, PNUR1128, PNUR1243, PNUR1257, <br/> PNUR1265, PNUR1157)</p>
+        <p className='countrypara'>(PNUR1220, PNUR1228, PNUR1243, PNUR1128, PNUR1243, PNUR1257, <br/> PNUR1265, PNUR1157)</p>
       </div>
       <hr className='hrtag' />
       <div>

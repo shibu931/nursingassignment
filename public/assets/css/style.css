@@ -84,7 +84,7 @@ body{
 .hero-banner{
     background: var(--primary-gradient);
     color: #fff;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
 }
 .counter-box{
     z-index: 3;
@@ -106,10 +106,7 @@ body{
     width: 80%;
 }
 .banner-img{
-    /* transform: translateX(40px); */
-}
-.title-text{
-    text-wrap:nowrap;
+    transform: translateX(40px);
 }
 .vl{
     width: 2px;
@@ -314,6 +311,11 @@ body{
       position: absolute;
       display: inline-block;
 }
+@media screen and (min-width:1200px){
+    .title-text{
+        text-wrap:nowrap;
+    }
+}
 @media screen and (max-width:480px){
     .last::after {
         right: 0%;
@@ -452,6 +454,9 @@ section{
     .w-80{
         width: 90%!important;
     }
+    .hero-banner{
+        margin-bottom: 7rem;
+    }
 }
 @media screen and (min-width:480px){
     .text-lg-justify{
@@ -466,6 +471,7 @@ section{
 	position: fixed;
 	bottom: 20px;
 	left: 20px;
+    z-index: 99999;
 	font-size: 40px;
 	display: flex;
 	justify-content: center;

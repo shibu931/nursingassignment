@@ -8,7 +8,7 @@ function ProsCons() {
         <div className='py-2'>
           <div className='heading'>
             <p className='subheading fs-4 mb-4 text-sm-start text-center'>Hack Only The Pro’s Know</p>
-            <h2 className='fs-1 fw-bold text-sm-start text-center'>Nursing Assignment Experts Outlines <br />Do’s and Don’ts:</h2></div>
+            <h2 className='fs-1 fw-bold text-sm-start text-center'>Nursing Assignment Help Outlines <br />Do’s and Don’ts:</h2></div>
         </div>
       </div>
       <section className='prooscons-sect'>
